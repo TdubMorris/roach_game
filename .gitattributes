@@ -1,2 +1,5 @@
 # Normalize EOL for all files that Git considers text files.
 * text=auto eol=lf
+
+# Choose the entire incoming file upon merge
+*.tscn merge=choose-incomings
