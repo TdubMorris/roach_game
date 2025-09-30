@@ -2,4 +2,4 @@
 * text=auto eol=lf
 
 # Choose the entire incoming file upon merge
-*.tscn merge=choose-incomings
+*.tscn merge=choose-incoming
