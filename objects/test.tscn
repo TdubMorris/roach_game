@@ -5,5 +5,5 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Fall" type="Sprite2D" parent="."]
-position = Vector2(-28, -23)
+position = Vector2(28, 19)
 texture = ExtResource("1_uk2ro")
