@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://chuho0qremmp2"]
-
-[ext_resource type="Texture2D" uid="uid://1w8lmq3idq06" path="res://assets/player/fall.png" id="1_uk2ro"]
-
-[node name="Node2D" type="Node2D"]
-
-[node name="Fall" type="Sprite2D" parent="."]
-position = Vector2(-32, -18)
-texture = ExtResource("1_uk2ro")

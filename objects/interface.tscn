@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://del6u15o0yxox"]
+
+[ext_resource type="PackedScene" uid="uid://cl2xv81yrcsud" path="res://objects/debuglevel.tscn" id="1_x2on6"]
+
+[node name="Interface" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="."]
+layout_mode = 1
+offset_left = -4.0
+offset_top = -4.0
+offset_right = 318.0
+offset_bottom = 178.0
+scale = Vector2(4, 4)
+
+[node name="SubViewport" type="SubViewport" parent="SubViewportContainer"]
+transparent_bg = true
+handle_input_locally = false
+snap_2d_transforms_to_pixel = true
+canvas_item_default_texture_filter = 0
+size = Vector2i(322, 182)
+render_target_update_mode = 4
+
+[node name="debuglevel" parent="SubViewportContainer/SubViewport" instance=ExtResource("1_x2on6")]
